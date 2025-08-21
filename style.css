@@ -1,0 +1,34 @@
+/*variaveis*/
+:root {
+  --preto: #9b2c2c;
+  --branco: #fff;
+  --lilás-claro: #eb76db;
+  --azul-médio: #2f4dd1;
+}
+
+/*corpo da página*/
+body {
+  color: var(--branco); /*cor da fonte*/
+  background-color: var(--preto); /*cor de fundo*/
+  margin: 0px; /* não terá margem padrão*/
+}
+
+header {
+  border: solid 2px;
+  border-color: var(--branco); /*cor da borda*/
+  padding: 20px; /*espaçamento interno*/
+  font-size: 32px; /*tamanho da fonte*/
+  color: var(--azul-médio); /*cor da fonte*/
+}
+
+section {
+  background-color: var(--lilás-claro); /*cor de fundo*/
+  padding-bottom: 80px; /*espaçamento inferior*/
+  padding-top: 80px; /*espaçamento superior*/
+  display: flex; /*alterar a disposição*/
+  justify-content: center; /* justificado no centro*/
+}
+
+div {
+  margin-right: 20px; /*margem a direita*/
+}
